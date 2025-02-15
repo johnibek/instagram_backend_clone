@@ -40,7 +40,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-### In another teerminal tab, run celery. You need to be installed rabbitmq.
+### In another teerminal tab, run celery. You must have rabbitmq installed.
 ```shell
 celery -A instagram_clone worker --loglevel=INFO
 ```
