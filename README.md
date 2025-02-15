@@ -40,4 +40,9 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+### In another teerminal tab, run celery. You need to be installed rabbitmq.
+```shell
+celery -A instagram_clone worker --loglevel=INFO
+```
+
 #### You are all done. Happy coding🥳
