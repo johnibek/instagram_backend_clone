@@ -1,0 +1,12 @@
+asgiref==3.8.1
+Django==5.1.4
+djangorestframework==3.15.2
+psycopg2==2.9.10
+sqlparse==0.5.2
+celery
+phonenumbers
+djangorestframework
+djangorestframework-simplejwt
+pillow
+requests
+python-decouple~=3.8
